@@ -11,6 +11,10 @@
 		B92BBA7429AD4D730034C833 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92BBA7329AD4D730034C833 /* ContentView.swift */; };
 		B92BBA7629AD4D730034C833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92BBA7529AD4D730034C833 /* Assets.xcassets */; };
 		B92BBA7929AD4D730034C833 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92BBA7829AD4D730034C833 /* Preview Assets.xcassets */; };
+		B92BBA8229AD54ED0034C833 /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92BBA8129AD54ED0034C833 /* QuizModel.swift */; };
+		B92BBA8529AD58DA0034C833 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92BBA8429AD58DA0034C833 /* QuizView.swift */; };
+		B92BBA8729AD5BEE0034C833 /* Quizzes.json in Resources */ = {isa = PBXBuildFile; fileRef = B92BBA8629AD5BEE0034C833 /* Quizzes.json */; };
+		B92BBA8929ADA8210034C833 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92BBA8829ADA8210034C833 /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		B92BBA7329AD4D730034C833 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B92BBA7529AD4D730034C833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B92BBA7829AD4D730034C833 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B92BBA8129AD54ED0034C833 /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
+		B92BBA8429AD58DA0034C833 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		B92BBA8629AD5BEE0034C833 /* Quizzes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Quizzes.json; sourceTree = "<group>"; };
+		B92BBA8829ADA8210034C833 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,10 @@
 		B92BBA7029AD4D730034C833 /* quizMania */ = {
 			isa = PBXGroup;
 			children = (
+				B92BBA8629AD5BEE0034C833 /* Quizzes.json */,
+				B92BBA8329AD58CB0034C833 /* Views */,
+				B92BBA7F29AD4F760034C833 /* Models */,
 				B92BBA7129AD4D730034C833 /* quizManiaApp.swift */,
-				B92BBA7329AD4D730034C833 /* ContentView.swift */,
 				B92BBA7529AD4D730034C833 /* Assets.xcassets */,
 				B92BBA7729AD4D730034C833 /* Preview Content */,
 			);
@@ -65,6 +75,24 @@
 				B92BBA7829AD4D730034C833 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B92BBA7F29AD4F760034C833 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B92BBA8129AD54ED0034C833 /* QuizModel.swift */,
+				B92BBA8829ADA8210034C833 /* ModelData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B92BBA8329AD58CB0034C833 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B92BBA8429AD58DA0034C833 /* QuizView.swift */,
+				B92BBA7329AD4D730034C833 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +155,7 @@
 			files = (
 				B92BBA7929AD4D730034C833 /* Preview Assets.xcassets in Resources */,
 				B92BBA7629AD4D730034C833 /* Assets.xcassets in Resources */,
+				B92BBA8729AD5BEE0034C833 /* Quizzes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +167,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B92BBA7429AD4D730034C833 /* ContentView.swift in Sources */,
+				B92BBA8529AD58DA0034C833 /* QuizView.swift in Sources */,
+				B92BBA8929ADA8210034C833 /* ModelData.swift in Sources */,
+				B92BBA8229AD54ED0034C833 /* QuizModel.swift in Sources */,
 				B92BBA7229AD4D730034C833 /* quizManiaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
